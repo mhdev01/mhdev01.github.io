@@ -24,7 +24,7 @@ title: Home - Mani Raghavan
         <div class="card-icon">
           <i class="fas fa-building"></i>
         </div>
-        <h3>ERP-Grade Architecture</h3>
+        <h3>ERP Architecture</h3>
         <p>Multi-tenant SaaS systems with robust audit trails, compliance-ready data models, and enterprise-level security.</p>
       </div>
       
@@ -46,10 +46,10 @@ title: Home - Mani Raghavan
       
       <div class="card">
         <div class="card-icon">
-          <i class="fas fa-shield-alt"></i>
+          <i class="fas fa-puzzle-piece"></i>
         </div>
-        <h3>Enterprise Integration</h3>
-        <p>SAP, Oracle JDE, and EBS integrations with focus on GRC, audit reporting, and secure access provisioning.</p>
+        <h3>ERP | GRC | Analytics Integration</h3>
+        <p>Oracle JDE/EBS and SAP integrations with pgvector analytics, governance, SOD analysis, audit reporting, and JML access workflows.</p>
       </div>
     </div>
   </div>
@@ -83,9 +83,18 @@ title: Home - Mani Raghavan
       <div class="card">
         <h3><i class="fas fa-mobile-alt"></i> Mobile</h3>
         <ul class="feature-list">
-          <li>React Native</li>
-          <li>Role-based UI</li>
-          <li>Push notifications</li>
+          <li>Flutter, React Native</li>
+          <li>Role-based access</li>
+          <li>Granular permissions</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h3><i class="fas fa-puzzle-piece"></i> ERP | GRC | Analytics</h3>
+        <ul class="feature-list">
+          <li>Oracle JDE/EBS (pgvector, Analytics, real-time reporting)</li>
+          <li>SAP (Governance, SOD, Audit reports, JML workflows)</li>
+          <li>AI agents for ERP workflows</li>
         </ul>
       </div>
     </div>
@@ -104,12 +113,13 @@ title: Home - Mani Raghavan
         <img src="{{ '/assets/images/project-vehicle.png' | relative_url }}" alt="Government Vehicle Testing System" class="project-image">
         <div class="project-content">
           <h3>Government Vehicle Testing & Certification</h3>
-          <p class="project-description">End-to-end certification workflow for a government organization with role-based access and secure integrations.</p>
+          <p class="project-description">End-to-end certification workflow with IoT, testing equipment, Ministry of Transport, payment gateway, and SMS/email integrations for a government organization.</p>
           <div class="tech-badges">
             <span class="badge">React</span>
             <span class="badge">Django</span>
             <span class="badge">PostgreSQL</span>
             <span class="badge">AWS</span>
+            <span class="badge">IoT</span>
           </div>
           <a href="{{ '/projects.html#vehicle-testing' | relative_url }}" class="btn btn-secondary">Learn More</a>
         </div>
@@ -119,12 +129,13 @@ title: Home - Mani Raghavan
         <img src="{{ '/assets/images/project-erp.png' | relative_url }}" alt="Modular ERP SaaS Platform" class="project-image">
         <div class="project-content">
           <h3>Modular ERP SaaS Platform</h3>
-          <p class="project-description">Multi-tenant SaaS with CRM, Sales, HRMS, and AI agent integration for business automation.</p>
+          <p class="project-description">Multi-tenant SaaS with CRM, Sales, HRMS, and WhatsApp/social media integration. RAG/AI agents for sales and support automation.</p>
           <div class="tech-badges">
             <span class="badge">React</span>
             <span class="badge">Django</span>
             <span class="badge">Supabase</span>
             <span class="badge">AI Integration</span>
+            <span class="badge">WhatsApp API</span>
           </div>
           <a href="{{ '/projects.html#erp-platform' | relative_url }}" class="btn btn-secondary">Learn More</a>
         </div>
@@ -134,12 +145,13 @@ title: Home - Mani Raghavan
         <img src="{{ '/assets/images/project-ai.png' | relative_url }}" alt="AI Business Automation" class="project-image">
         <div class="project-content">
           <h3>AI-Ready Business Automation</h3>
-          <p class="project-description">LLM-based AI agents for ERP workflows with RPA nodes and third-party system integrations.</p>
+          <p class="project-description">LLM-based AI agents for ERP/CRM workflows with RPA nodes (OCR, email, notifications), AI report generator, and Temporal workflow engine.</p>
           <div class="tech-badges">
             <span class="badge">Python</span>
             <span class="badge">LLM</span>
             <span class="badge">Temporal</span>
             <span class="badge">RPA</span>
+            <span class="badge">OCR</span>
           </div>
           <a href="{{ '/projects.html#ai-automation' | relative_url }}" class="btn btn-secondary">Learn More</a>
         </div>
@@ -156,7 +168,7 @@ title: Home - Mani Raghavan
   <div class="container">
     <div class="highlight-box">
       <p style="font-size: var(--font-size-lg); font-style: italic; text-align: center;">
-        "I focus on designing scalable SaaS platforms, ERP-grade systems, and AI-assisted business automation that hold up in real production environments."
+        "I focus on designing scalable SaaS platforms, ERP systems, and AI-assisted business automation that hold up in real production environments."
       </p>
     </div>
     

@@ -4,7 +4,7 @@ Senior Software Architect | SaaS & ERP Product Builder
 30+ years in IT • Full-stack • Cloud • AI-ready enterprise systems
 
 I design and build **production-grade SaaS platforms** and **enterprise applications** with a strong focus on:
-- ERP-grade architecture
+- ERP architecture
 - Multi-tenant SaaS systems
 - Business automation using AI agents
 - Secure, auditable, compliance-ready data models
@@ -28,7 +28,8 @@ I design and build **production-grade SaaS platforms** and **enterprise applicat
 - Role-based access
 - Granular permissions
 
-**Platforms & Integrations**
+
+**ERP | GRC | Analytics Integrations**
 - Oracle JDE/EBS (pgvector, Analytics, real-time reporting for decision making, multi-datasource)
 - SAP (integration & Governance, SOD, Audit reports, user access review, Data Masking, JML (joiner, mover, leaver) access workflow)
 - AI agents for ERP workflows
@@ -75,7 +76,7 @@ I design and build **production-grade SaaS platforms** and **enterprise applicat
 
 - Domain-driven design
 - Clean separation of frontend, backend, and data layers
-- ERP-grade auditability & compliance thinking
+- ERP auditability & compliance thinking
 - Scalable multi-tenant SaaS design
 - Documentation-first engineering
 
@@ -94,5 +95,5 @@ I design and build **production-grade SaaS platforms** and **enterprise applicat
 
 ---
 
-> “I focus today on designing scalable SaaS platforms, ERP-grade systems, 
+> “I focus today on designing scalable SaaS platforms, ERP systems, 
 and AI-assisted business automation that hold up in real production environments.”

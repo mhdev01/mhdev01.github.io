@@ -77,6 +77,7 @@ title: About - Mani Raghavan
           <span class="badge">FastAPI</span>
           <span class="badge">React</span>
           <span class="badge">Next.js</span>
+          <span class="badge">Flutter</span>
           <span class="badge">React Native</span>
         </div>
       </div>
@@ -86,6 +87,7 @@ title: About - Mani Raghavan
         <div class="tech-badges">
           <span class="badge">PostgreSQL</span>
           <span class="badge">Supabase</span>
+          <span class="badge">pgvector</span>
           <span class="badge">Redis</span>
           <span class="badge">AWS</span>
           <span class="badge">Docker</span>
@@ -94,14 +96,15 @@ title: About - Mani Raghavan
       </div>
       
       <div class="card">
-        <h3><i class="fas fa-plug"></i> Integration & Enterprise</h3>
+        <h3><i class="fas fa-plug"></i> ERP | GRC | Analytics</h3>
         <div class="tech-badges">
-          <span class="badge">SAP</span>
+          <span class="badge">SAP GRC</span>
           <span class="badge">Oracle JDE</span>
           <span class="badge">Oracle EBS</span>
-          <span class="badge">REST APIs</span>
-          <span class="badge">GraphQL</span>
-          <span class="badge">Webhooks</span>
+          <span class="badge">SOD Analysis</span>
+          <span class="badge">Audit Reports</span>
+          <span class="badge">JML Workflows</span>
+          <span class="badge">Real-time Analytics</span>
         </div>
       </div>
     </div>

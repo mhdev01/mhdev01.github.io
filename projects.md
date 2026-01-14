@@ -14,7 +14,7 @@ title: Projects - Mani Raghavan
       <img src="{{ '/assets/images/project-vehicle.png' | relative_url }}" alt="Government Vehicle Testing System" class="project-image">
       <div class="project-content">
         <h2 class="project-title">🏛 Government Vehicle Testing & Certification System</h2>
-        <p class="project-description">A comprehensive end-to-end certification workflow system deployed for a government organization, handling vehicle inspections, testing equipment integrations, and automated certification issuance.</p>
+        <p class="project-description">A comprehensive end-to-end certification workflow system deployed for a government organization, handling vehicle inspections with IoT testing equipment integrations, Ministry of Transport integration, payment gateway, and automated SMS/email notifications.</p>
         
         <h3>Key Features</h3>
         <ul class="feature-list">
@@ -46,7 +46,7 @@ title: Projects - Mani Raghavan
       <img src="{{ '/assets/images/project-erp.png' | relative_url }}" alt="Modular ERP SaaS Platform" class="project-image">
       <div class="project-content">
         <h2 class="project-title">🧩 Modular ERP SaaS Platform</h2>
-        <p class="project-description">A comprehensive multi-tenant SaaS platform with integrated CRM, Sales, POS, Purchase, Inventory, Accounts, and HRMS modules designed for small to medium enterprises.</p>
+        <p class="project-description">A comprehensive multi-tenant SaaS platform with integrated CRM, Sales, POS, Purchase, Inventory, Accounts, and HRMS modules. Features WhatsApp, email, and social media integration with RAG/AI agents for sales and support automation.</p>
         
         <h3>Modules & Features</h3>
         <ul class="feature-list">
@@ -88,7 +88,7 @@ title: Projects - Mani Raghavan
       <img src="{{ '/assets/images/project-ai.png' | relative_url }}" alt="AI Business Automation" class="project-image">
       <div class="project-content">
         <h2 class="project-title">🤖 AI-Ready Business Automation</h2>
-        <p class="project-description">Advanced AI agent system for automating complex ERP workflows using LLM-based reasoning, RPA nodes for legacy system integration, and orchestrated multi-agent workflows.</p>
+        <p class="project-description">Advanced AI agent system for automating complex ERP/CRM workflows using LLM-based reasoning with RPA nodes for trigger-based actions (OCR, email, push notifications), AI report generator chatbot, and Temporal workflow engine for complex orchestration.</p>
         
         <h3>Capabilities</h3>
         <ul class="feature-list">
