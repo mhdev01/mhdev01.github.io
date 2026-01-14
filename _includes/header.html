@@ -1,0 +1,37 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo/Branding with Profile Photo Placeholder -->
+            <div class="brand">
+                <div class="profile-photo-wrapper">
+                    <img src="{{ '/assets/images/profile-photo.jpg' | relative_url }}" alt="{{ site.author.name }}"
+                        class="profile-photo">
+                </div>
+                <div class="brand-text">
+                    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+                    <p class="site-tagline">{{ site.tagline }}</p>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu">
+                    {% for item in site.navigation %}
+                    <li class="nav-item">
+                        <a href="{{ item.url | relative_url }}"
+                            class="nav-link {% if page.url == item.url %}active{% endif %}">
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

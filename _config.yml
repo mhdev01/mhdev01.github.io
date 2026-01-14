@@ -1,0 +1,56 @@
+# Site settings
+title: Mani Raghavan
+tagline: Software Architect & SaaS Product Builder
+description: >-
+  Senior Software Architect with 30+ years of experience designing enterprise-grade 
+  SaaS platforms, ERP systems, and AI-powered business automation solutions.
+baseurl: ""
+url: "https://mhdev01.github.io"
+
+# Author information
+author:
+  name: Mani Raghavan
+  email: ebosmani@gmail.com
+  linkedin: https://www.linkedin.com/in/maniraghavan/
+  github: https://github.com/mhdev01
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about.html
+  - title: Projects
+    url: /projects.html
+  - title: Architecture
+    url: /architecture.html
+  - title: Consulting
+    url: /consulting.html
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+twitter:
+  username: 
+  card: summary
+
+# Theme
+theme:
