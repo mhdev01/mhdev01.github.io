@@ -11,46 +11,52 @@ title: About - Mani Raghavan
 <section class="section">
   <div class="container">
     <div class="highlight-box">
-      <p>I bring <strong>30+ years of hands-on experience</strong> across the IT lifecycle — software development, system architecture, product leadership, and technical advisory.</p>
+      <p>I bring <strong>30+ years of hands-on experience</strong> across the IT lifecycle — from the era of monolithic enterprise systems to the modern frontier of AI-driven microservices. My career is defined by building systems that outlast technology cycles.</p>
     </div>
     
+    <h2 class="text-gradient mt-3">Evolution of Expertise</h2>
+    <div class="card" style="margin-bottom: var(--spacing-xl);">
+      <p>True architecture is about choosing the right tool for the next decade, not just the last one. I have strategically evolved my core stack to meet the demands of modern enterprise performance:</p>
+      <div class="card-grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-lg); margin-top: var(--spacing-md);">
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Foundation</h4>
+          <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React • Flutter</p>
+          <p style="font-size: var(--font-size-sm);">Built dozens of robust, monolithic systems with deep business logic and cross-platform reach.</p>
+        </div>
+        <div style="padding: var(--spacing-md); background: rgba(139, 92, 246, 0.05); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-accent-secondary); text-transform: uppercase;">Next-Gen Architecture</h4>
+          <p style="color: var(--color-text-primary); font-weight: 600;">FastAPI • Microservices • Next.js • AI Agents</p>
+          <p style="font-size: var(--font-size-sm);">Modernizing enterprise systems for sub-millisecond latency, massive horizontal scale, and **React Query optimized UX**.</p>
+        </div>
+      </div>
+    </div>
+
     <h2 class="text-gradient mt-3">Current Focus</h2>
     <div class="card-grid">
       <div class="card">
         <div class="card-icon">
-          <i class="fas fa-cloud-upload-alt"></i>
+          <i class="fas fa-cubes"></i>
         </div>
-        <h3>SaaS Architecture & Scalability</h3>
-        <p>Designing multi-tenant platforms that scale from startup to enterprise, with built-in security and compliance.</p>
-      </div>
-      
-      <div class="card">
-        <div class="card-icon">
-          <i class="fas fa-sitemap"></i>
-        </div>
-        <h3>ERP-Centric System Design</h3>
-        <p>Enterprise resource planning systems with audit trails, role-based access, and integration-ready architecture.</p>
+        <h3>High-Performance Microservices</h3>
+        <p>Architecting distributed systems using Python and FastAPI that prioritize performance, observability, and decoupled scaling.</p>
       </div>
       
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-brain"></i>
         </div>
-        <h3>AI-Assisted Business Automation</h3>
-        <p>Leveraging LLMs and RPA to automate complex business workflows while maintaining human oversight and control.</p>
+        <h3>AI-Driven Orchestration</h3>
+        <p>Leveraging LLMs, Vector Databases (pgvector), and RAG to automate complex business workflows while maintaining human oversight.</p>
       </div>
       
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-chalkboard-teacher"></i>
         </div>
-        <h3>Advisory & Mentoring</h3>
-        <p>Technical advisory, architecture reviews, and long-term product strategy consultation for SaaS products.</p>
+        <h3>Architectural Advisory</h3>
+        <p>Technical advisory, high-level architecture reviews, and long-term product strategy for enterprise SaaS and GRC systems.</p>
       </div>
     </div>
-    
-    <h2 class="text-gradient mt-3">What I Specialize In</h2>
-    <p>I translate complex business requirements into elegant, scalable systems:</p>
     
     <div class="card">
       <ul class="feature-list" style="margin: 0;">

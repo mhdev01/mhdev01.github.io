@@ -21,21 +21,21 @@ title: Architecture - Mani Raghavan
       </ul>
     </div>
     
-    <h2 class="text-gradient mt-3">Typical Stack</h2>
+    <h2 class="text-gradient mt-3">The Modern Stack</h2>
     <div class="card-grid">
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-desktop"></i>
         </div>
         <h3>Frontend Layer</h3>
-        <p><strong>Primary:</strong> React.js, Next.js</p>
-        <p><strong>Mobile:</strong> React Native</p>
+        <p><strong>Primary:</strong> Next.js, React</p>
+        <p><strong>Mobile:</strong> React Native, Flutter</p>
         <p><strong>Styling:</strong> CSS Modules, Tailwind CSS</p>
         <div class="tech-badges mt-2">
-          <span class="badge">React</span>
           <span class="badge">Next.js</span>
           <span class="badge">TypeScript</span>
-          <span class="badge">React Native</span>
+          <span class="badge">React Query</span>
+          <span class="badge">Tailwind</span>
         </div>
       </div>
       
@@ -44,14 +44,14 @@ title: Architecture - Mani Raghavan
           <i class="fas fa-server"></i>
         </div>
         <h3>Backend Layer</h3>
-        <p><strong>Frameworks:</strong> Django, FastAPI</p>
-        <p><strong>API:</strong> REST, GraphQL</p>
-        <p><strong>Auth:</strong> RBAC + JWT</p>
+        <p><strong>Framework:</strong> FastAPI (High Performance)</p>
+        <p><strong>Architecture:</strong> Distributed Microservices</p>
+        <p><strong>API:</strong> REST, gRPC, OAuth2</p>
         <div class="tech-badges mt-2">
           <span class="badge">Python</span>
-          <span class="badge">Django</span>
           <span class="badge">FastAPI</span>
-          <span class="badge">JWT</span>
+          <span class="badge">Microservices</span>
+          <span class="badge">Redis</span>
         </div>
       </div>
       
@@ -128,12 +128,12 @@ title: Architecture - Mani Raghavan
       <p>Modern cloud-native architecture with clear separation between frontend, backend, and data layers, designed for microservices deployment.</p>
       
       <ul class="feature-list">
-        <li><strong>Frontend Layer:</strong> React-based web and mobile applications with responsive design</li>
-        <li><strong>API Gateway:</strong> Centralized routing, authentication, and rate limiting</li>
-        <li><strong>Authentication Layer:</strong> JWT-based auth with OAuth integration</li>
-        <li><strong>Microservices:</strong> Django and FastAPI services with domain-driven design</li>
-        <li><strong>Database Layer:</strong> PostgreSQL with multi-tenant data isolation</li>
-        <li><strong>Cloud Deployment:</strong> Containerized deployment on AWS or Azure</li>
+        <li><strong>Frontend Layer:</strong> Next.js and React-based applications with edge-optimized performance</li>
+        <li><strong>API Gateway:</strong> High-speed routing, authentication, and rate limiting</li>
+        <li><strong>Authentication Layer:</strong> JWT-based and OAuth2 integration with Supabase Auth</li>
+        <li><strong>Microservices:</strong> FastAPI-driven services with domain-driven design and async logic</li>
+        <li><strong>Database Layer:</strong> PostgreSQL with cross-tenant data isolation and pgvector</li>
+        <li><strong>Cloud Deployment:</strong> Automated CI/CD to AWS, Azure, and Vercel</li>
       </ul>
     </div>
     

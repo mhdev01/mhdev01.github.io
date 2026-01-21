@@ -4,52 +4,52 @@ title: Home - Mani Raghavan
 ---
 
 <section class="hero">
-  <h1 class="hero-title">Senior Software Architect & SaaS Product Builder</h1>
-  <p class="hero-subtitle">30+ years of experience designing enterprise-grade systems that scale</p>
+  <h1 class="hero-title">Designing the Backbone of Modern Enterprise SaaS</h1>
+  <p class="hero-subtitle">30+ years of architecting scalable, audit-ready, and AI-powered systems. Transitioning enterprise reliability from Django/REST to modern **Python, FastAPI, & Next.js Microservices**.</p>
   <div class="hero-cta">
-    <a href="{{ '/projects.html' | relative_url }}" class="btn btn-primary">View My Projects</a>
-    <a href="{{ '/consulting.html' | relative_url }}" class="btn btn-secondary">Let's Collaborate</a>
+    <a href="{{ '/projects.html' | relative_url }}" class="btn btn-primary">Explore My Work</a>
+    <a href="{{ '/consulting.html' | relative_url }}" class="btn btn-secondary">Architectural Advisory</a>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">What I Do</h2>
-      <p class="section-subtitle">Building production-grade platforms and enterprise applications with a focus on scalability, security, and modern architecture</p>
+      <h2 class="section-title">Strategic Capabilities</h2>
+      <p class="section-subtitle">Bridging legacy enterprise stability with high-performance modern architectures.</p>
     </div>
     
     <div class="card-grid">
       <div class="card">
         <div class="card-icon">
-          <i class="fas fa-building"></i>
+          <i class="fas fa-sitemap"></i>
         </div>
-        <h3>ERP Architecture</h3>
-        <p>Multi-tenant SaaS systems with robust audit trails, compliance-ready data models, and enterprise-level security.</p>
+        <h3>Enterprise Microservices</h3>
+        <p>High-performance backend systems using FastAPI and Python, designed for high throughput and horizontal scalability.</p>
       </div>
       
       <div class="card">
         <div class="card-icon">
-          <i class="fas fa-cloud"></i>
+          <i class="fas fa-layer-group"></i>
         </div>
-        <h3>Cloud-Native SaaS</h3>
-        <p>Production-grade SaaS platforms designed for scalability, with microservices architecture and modern DevOps practices.</p>
+        <h3>Modern SaaS Ecosystems</h3>
+        <p>Full-stack modernism with Next.js, React, and Supabase, featuring multi-tenant isolation and cloud-native resilience.</p>
       </div>
       
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-robot"></i>
         </div>
-        <h3>AI-Powered Automation</h3>
-        <p>Business automation using AI agents, LLM integration, and RPA workflows for enterprise process optimization.</p>
+        <h3>AI-Driven Orchestration</h3>
+        <p>Autonomous AI agents and LLM-powered business automation integrated into complex enterprise workflows.</p>
       </div>
       
       <div class="card">
         <div class="card-icon">
-          <i class="fas fa-puzzle-piece"></i>
+          <i class="fas fa-shield-check"></i>
         </div>
-        <h3>ERP | GRC | Analytics Integration</h3>
-        <p>Oracle JDE/EBS and SAP integrations with pgvector analytics, governance, SOD analysis, audit reporting, and JML access workflows.</p>
+        <h3>Compliance & Governance</h3>
+        <p>Deep expertise in SAP/Oracle GRC, audit trails, and SOD analysis, ensuring architecture is production and audit-ready.</p>
       </div>
     </div>
   </div>
@@ -63,38 +63,38 @@ title: Home - Mani Raghavan
     
     <div class="card-grid">
       <div class="card">
-        <h3><i class="fas fa-server"></i> Backend</h3>
+        <h3><i class="fas fa-server"></i> Modern Backend</h3>
         <ul class="feature-list">
-          <li>Python, Django, FastAPI, REST APIs</li>
-          <li>RBAC, Audit Trails, Compliance</li>
-          <li>Supabase, PostgreSQL (multi-tenant)</li>
+          <li>Python, FastAPI, Django</li>
+          <li>Microservices Architecture</li>
+          <li>Supabase, PostgreSQL (Row Level Security)</li>
         </ul>
       </div>
       
       <div class="card">
-        <h3><i class="fas fa-desktop"></i> Frontend</h3>
+        <h3><i class="fas fa-desktop"></i> Premium Frontend</h3>
         <ul class="feature-list">
-          <li>React.js, Next.js</li>
-          <li>Role-based dashboards</li>
-          <li>Enterprise UI workflows</li>
+          <li>Next.js, React, TypeScript</li>
+          <li>**React Query (TanStack)** for UX Optimization</li>
+          <li>Performance-optimized Vercel deployments</li>
         </ul>
       </div>
       
       <div class="card">
-        <h3><i class="fas fa-mobile-alt"></i> Mobile</h3>
+        <h3><i class="fas fa-mobile-alt"></i> Cross-Platform</h3>
         <ul class="feature-list">
-          <li>Flutter, React Native</li>
-          <li>Role-based access</li>
-          <li>Granular permissions</li>
+          <li>React Native, Flutter</li>
+          <li>Unified mobile & web design systems</li>
+          <li>Offline-first enterprise applications</li>
         </ul>
       </div>
       
       <div class="card">
-        <h3><i class="fas fa-puzzle-piece"></i> ERP | GRC | Analytics</h3>
+        <h3><i class="fas fa-puzzle-piece"></i> Enterprise Integration</h3>
         <ul class="feature-list">
-          <li>Oracle JDE/EBS (pgvector, Analytics, real-time reporting)</li>
-          <li>SAP (Governance, SOD, Audit reports, JML workflows)</li>
-          <li>AI agents for ERP workflows</li>
+          <li>Oracle JDE/EBS & SAP Governance</li>
+          <li>AI-Agent Process Automation</li>
+          <li>pgvector for RAG & Semantic Search</li>
         </ul>
       </div>
     </div>

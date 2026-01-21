@@ -115,13 +115,13 @@ title: Consulting & Collaboration - Mani Raghavan
       
       <div class="card">
         <h3><i class="fas fa-code"></i> Hands-On Development</h3>
-        <p>Direct implementation support:</p>
+        <p>Direct implementation support for high-stakes features:</p>
         <ul class="feature-list">
-          <li>Backend development (Django/FastAPI)</li>
-          <li>Frontend development (React/Next.js)</li>
-          <li>Database design & optimization</li>
-          <li>API design & implementation</li>
-          <li>DevOps & deployment</li>
+          <li>Backend development (FastAPI/Python microservices)</li>
+          <li>Frontend development (Next.js/React engineering)</li>
+          <li>Database design & pgvector optimization</li>
+          <li>Enterprise-grade API design (REST/gRPC)</li>
+          <li>Modern DevOps & Edge Deployment (Vercel/AWS)</li>
         </ul>
       </div>
     </div>

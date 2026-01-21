@@ -91,11 +91,31 @@ body {
   color: var(--color-text-primary);
   background: var(--color-bg-primary);
   background-image:
-    radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.1) 0, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.1) 0, transparent 50%);
+    radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.12) 0, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.12) 0, transparent 50%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-bg-tertiary);
+  border: 2px solid var(--color-bg-primary);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-primary);
 }
 
 /* ===================================
@@ -532,6 +552,7 @@ strong {
 .card p {
   color: var(--color-text-secondary);
   margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-sm);
 }
 
 /* Project Cards */
@@ -657,17 +678,33 @@ strong {
 }
 
 .feature-list li::before {
-  content: '✓';
+  content: '→';
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background: var(--color-accent-gradient);
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   text-align: center;
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 700;
   color: white;
   flex-shrink: 0;
+  font-size: 0.8rem;
+}
+
+/* Impact List */
+.impact-list li::before {
+  content: '⚡';
+  background: none;
+  font-size: 1.2rem;
+  width: auto;
+  height: auto;
+  color: var(--color-accent-secondary);
+}
+
+.impact-list li {
+  font-weight: 500;
+  color: var(--color-text-primary);
 }
 
 /* ===================================
