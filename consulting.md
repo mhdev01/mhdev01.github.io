@@ -3,7 +3,7 @@ layout: default
 title: Consulting & Collaboration - Mani Raghavan
 ---
 
-<section class="hero" style="padding: var(--spacing-3xl) 0;">
+<section class="hero py-hero">
   <h1 class="hero-title">Consulting & Collaboration</h1>
   <p class="hero-subtitle">Let's build something exceptional together</p>
 </section>
@@ -11,7 +11,7 @@ title: Consulting & Collaboration - Mani Raghavan
 <section class="section">
   <div class="container">
     <div class="highlight-box">
-      <p style="font-size: var(--font-size-lg); text-align: center;">
+      <p class="text-center" style="font-size: var(--font-size-lg);">
         I partner with <strong>SaaS founders</strong>, <strong>ERP partners</strong>, <strong>product teams</strong>, and <strong>enterprise clients</strong> to design and build scalable, production-ready systems.
       </p>
     </div>
@@ -144,57 +144,57 @@ title: Consulting & Collaboration - Mani Raghavan
         <h3>Government Vehicle Certification</h3>
         <p class="mb-1"><strong>Type:</strong> Full system design & development</p>
         <p class="mb-1"><strong>Outcome:</strong> Production deployment serving government organization</p>
-        <p><strong>Technologies:</strong> React, Django, PostgreSQL, AWS</p>
+        <p class="mb-0"><strong>Technologies:</strong> React, Django, PostgreSQL, AWS</p>
       </div>
       
       <div class="card">
         <h3>Multi-Tenant ERP SaaS</h3>
         <p class="mb-1"><strong>Type:</strong> Architecture & MVP development</p>
         <p class="mb-1"><strong>Outcome:</strong> Beta deployment with multiple modules</p>
-        <p><strong>Technologies:</strong> Next.js, Django, Supabase, AI Integration</p>
+        <p class="mb-0"><strong>Technologies:</strong> Next.js, Django, Supabase, AI Integration</p>
       </div>
       
       <div class="card">
         <h3>AI Workflow Automation</h3>
         <p class="mb-1"><strong>Type:</strong> Research & proof-of-concept</p>
         <p class="mb-1"><strong>Outcome:</strong> LLM-based agents for business processes</p>
-        <p><strong>Technologies:</strong> Python, LLM, Temporal, RPA</p>
+        <p class="mb-0"><strong>Technologies:</strong> Python, LLM, Temporal, RPA</p>
       </div>
     </div>
     
-    <div style="text-align: center; margin-top: var(--spacing-3xl); padding: var(--spacing-3xl); background: var(--color-bg-secondary); border-radius: var(--radius-xl);">
+    <div class="text-center mt-4 py-hero bg-secondary" style="border-radius: var(--radius-xl);">
       <h2 class="text-gradient">Let's Start a Conversation</h2>
-      <p style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0;">
+      <p class="mt-2 mb-2" style="font-size: var(--font-size-lg);">
         Whether you need a quick architecture review or a long-term partnership, I'm here to help.
       </p>
       
-      <div class="card-grid" style="margin: var(--spacing-2xl) 0;">
+      <div class="card-grid mt-4 mb-4">
         <div class="card">
           <h3><i class="fas fa-envelope"></i> Email</h3>
-          <p><a href="mailto:{{ site.author.email }}" style="color: var(--color-accent-primary); font-weight: 600;">{{ site.author.email }}</a></p>
-          <p class="mb-0" style="color: var(--color-text-muted); font-size: var(--font-size-sm);">Best for detailed inquiries</p>
+          <p><a href="mailto:{{ site.author.email }}" class="color-text-primary" style="font-weight: 600;">{{ site.author.email }}</a></p>
+          <p class="mb-0 color-text-muted" style="font-size: var(--font-size-sm);">Best for detailed inquiries</p>
         </div>
         
         <div class="card">
           <h3><i class="fab fa-linkedin"></i> LinkedIn</h3>
-          <p><a href="{{ site.author.linkedin }}" target="_blank" style="color: var(--color-accent-primary); font-weight: 600;">Connect on LinkedIn</a></p>
-          <p class="mb-0" style="color: var(--color-text-muted); font-size: var(--font-size-sm);">Professional networking</p>
+          <p><a href="{{ site.author.linkedin }}" target="_blank" class="color-text-primary" style="font-weight: 600;">Connect on LinkedIn</a></p>
+          <p class="mb-0 color-text-muted" style="font-size: var(--font-size-sm);">Professional networking</p>
         </div>
         
         <div class="card">
           <h3><i class="fab fa-github"></i> GitHub</h3>
-          <p><a href="{{ site.author.github }}" target="_blank" style="color: var(--color-accent-primary); font-weight: 600;">View My Repositories</a></p>
-          <p class="mb-0" style="color: var(--color-text-muted); font-size: var(--font-size-sm);">Check out my code</p>
+          <p><a href="{{ site.author.github }}" target="_blank" class="color-text-primary" style="font-weight: 600;">View My Repositories</a></p>
+          <p class="mb-0 color-text-muted" style="font-size: var(--font-size-sm);">Check out my code</p>
         </div>
       </div>
       
-      <div style="margin-top: var(--spacing-2xl);">
+      <div class="mt-4">
         <a href="mailto:{{ site.author.email }}" class="btn btn-primary" style="font-size: var(--font-size-lg); padding: var(--spacing-lg) var(--spacing-2xl);">
           <i class="fas fa-paper-plane"></i> Send Me a Message
         </a>
       </div>
       
-      <p style="margin-top: var(--spacing-xl); color: var(--color-text-muted); font-style: italic;">
+      <p class="mt-3 color-text-muted" style="font-style: italic;">
         Typically respond within 24 hours
       </p>
     </div>

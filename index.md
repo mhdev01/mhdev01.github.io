@@ -55,7 +55,7 @@ title: Home - Mani Raghavan
   </div>
 </section>
 
-<section class="section" style="background: var(--color-bg-secondary); margin: 0 -100vw; padding-left: 100vw; padding-right: 100vw;">
+<section class="section section-full">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">Core Expertise</h2>
@@ -158,23 +158,23 @@ title: Home - Mani Raghavan
       </div>
     </div>
     
-    <div style="text-align: center; margin-top: var(--spacing-2xl);">
+    <div class="text-center mt-3">
       <a href="{{ '/projects.html' | relative_url }}" class="btn btn-primary">View All Projects</a>
     </div>
   </div>
 </section>
 
-<section class="section" style="background: var(--color-bg-secondary); margin: 0 -100vw; padding-left: 100vw; padding-right: 100vw;">
+<section class="section section-full">
   <div class="container">
     <div class="highlight-box">
-      <p style="font-size: var(--font-size-lg); font-style: italic; text-align: center;">
+      <p class="text-center" style="font-size: var(--font-size-lg); font-style: italic;">
         "I focus on designing scalable SaaS platforms, ERP systems, and AI-assisted business automation that hold up in real production environments."
       </p>
     </div>
     
-    <div style="text-align: center; margin-top: var(--spacing-2xl);">
-      <h3>Ready to collaborate?</h3>
-      <div style="display: flex; gap: var(--spacing-md); justify-content: center; margin-top: var(--spacing-lg); flex-wrap: wrap;">
+    <div class="text-center mt-3">
+      <h3 class="text-gradient">Ready to collaborate?</h3>
+      <div class="flex gap-md justify-center mt-2 flex-wrap">
         <a href="mailto:{{ site.author.email }}" class="btn btn-primary">
           <i class="fas fa-envelope"></i> Email Me
         </a>

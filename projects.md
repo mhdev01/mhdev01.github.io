@@ -3,14 +3,14 @@ layout: default
 title: Projects - Mani Raghavan
 ---
 
-<section class="hero" style="padding: var(--spacing-3xl) 0;">
+<section class="hero py-hero">
   <h1 class="hero-title">Projects</h1>
   <p class="hero-subtitle">Production-grade systems serving real businesses and government organizations</p>
 </section>
 
 <section class="section">
   <div class="container">
-    <div id="vehicle-testing" class="project-card" style="margin-bottom: var(--spacing-3xl);">
+    <div id="vehicle-testing" class="project-card mb-4">
       <img src="{{ '/assets/images/project-vehicle.png' | relative_url }}" alt="Government Vehicle Testing System" class="project-image">
       <div class="project-content">
         <h2 class="project-title">🏛 Government Vehicle Testing & Certification</h2>
@@ -50,7 +50,7 @@ title: Projects - Mani Raghavan
       </div>
     </div>
     
-    <div id="erp-platform" class="project-card" style="margin-bottom: var(--spacing-3xl);">
+    <div id="erp-platform" class="project-card mb-4">
       <img src="{{ '/assets/images/project-erp.png' | relative_url }}" alt="Modular ERP SaaS Platform" class="project-image">
       <div class="project-content">
         <h2 class="project-title">🧩 Next-Gen Modular ERP SaaS</h2>
@@ -90,7 +90,7 @@ title: Projects - Mani Raghavan
       </div>
     </div>
     
-    <div id="ai-automation" class="project-card" style="margin-bottom: var(--spacing-3xl);">
+    <div id="ai-automation" class="project-card mb-4">
       <img src="{{ '/assets/images/project-ai.png' | relative_url }}" alt="AI Business Automation" class="project-image">
       <div class="project-content">
         <h2 class="project-title">🤖 AI-Ready Enterprise Automation</h2>

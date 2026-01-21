@@ -3,7 +3,7 @@ layout: default
 title: Architecture - Mani Raghavan
 ---
 
-<section class="hero" style="padding: var(--spacing-3xl) 0;">
+<section class="hero py-hero">
   <h1 class="hero-title">Architecture Philosophy</h1>
   <p class="hero-subtitle">Building systems that scale, endure, and deliver business value</p>
 </section>
@@ -11,8 +11,8 @@ title: Architecture - Mani Raghavan
 <section class="section">
   <div class="container">
     <div class="highlight-box">
-      <h3 style="margin-top: 0;">I design systems that:</h3>
-      <ul class="feature-list" style="margin-bottom: 0;">
+      <h3 class="mt-0">I design systems that:</h3>
+      <ul class="feature-list mb-0">
         <li>Are understandable 5 years later</li>
         <li>Scale without requiring complete rewrites</li>
         <li>Support audit, compliance, and reporting from day one</li>
@@ -123,7 +123,7 @@ title: Architecture - Mani Raghavan
     
     <h2 class="text-gradient mt-3">Architecture Diagram</h2>
     <div class="card">
-      <img src="{{ '/assets/images/architecture-diagram.png' | relative_url }}" alt="Multi-Tier Software Architecture" style="width: 100%; border-radius: var(--radius-md);">
+      <img src="{{ '/assets/images/architecture-diagram.png' | relative_url }}" alt="Multi-Tier Software Architecture" class="w-full" style="border-radius: var(--radius-md);">
       <h3 class="mt-2">Multi-Tier Cloud-Native Architecture</h3>
       <p>Modern cloud-native architecture with clear separation between frontend, backend, and data layers, designed for microservices deployment.</p>
       
@@ -139,7 +139,7 @@ title: Architecture - Mani Raghavan
     
     <h2 class="text-gradient mt-3">Development Approach</h2>
     <div class="highlight-box">
-      <h3 style="margin-top: 0;">Iterative & Incremental</h3>
+      <h3 class="mt-0">Iterative & Incremental</h3>
       <p>Start with a minimal viable architecture and evolve it based on real usage patterns. Avoid premature optimization.</p>
     </div>
     
@@ -175,10 +175,10 @@ title: Architecture - Mani Raghavan
       </div>
     </div>
     
-    <div style="text-align: center; margin-top: var(--spacing-3xl);">
-      <h3>Need architecture review or consultation?</h3>
+    <div class="text-center mt-4">
+      <h3 class="text-gradient">Need architecture review or consultation?</h3>
       <p class="mb-2">I offer architecture reviews, design consultations, and technical advisory services.</p>
-      <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+      <div class="flex gap-md justify-center flex-wrap">
         <a href="{{ '/consulting.html' | relative_url }}" class="btn btn-primary">Consulting Services</a>
         <a href="mailto:{{ site.author.email }}" class="btn btn-secondary">Get in Touch</a>
       </div>

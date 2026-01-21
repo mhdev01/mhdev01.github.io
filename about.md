@@ -3,7 +3,7 @@ layout: default
 title: About - Mani Raghavan
 ---
 
-<section class="hero" style="padding: var(--spacing-3xl) 0;">
+<section class="hero py-hero">
   <h1 class="hero-title">About Me</h1>
   <p class="hero-subtitle">Senior Software Architect with 30+ years of enterprise IT experience</p>
 </section>
@@ -15,9 +15,9 @@ title: About - Mani Raghavan
     </div>
     
     <h2 class="text-gradient mt-3">Evolution of Expertise</h2>
-    <div class="card" style="margin-bottom: var(--spacing-xl);">
+    <div class="card mb-3">
       <p>True architecture is about choosing the right tool for the next decade, not just the last one. I have strategically evolved my core stack to meet the demands of modern enterprise performance:</p>
-      <div class="card-grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-lg); margin-top: var(--spacing-md);">
+      <div class="grid grid-2 gap-lg mt-1">
         <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
           <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Foundation</h4>
           <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React • Flutter</p>
@@ -59,15 +59,15 @@ title: About - Mani Raghavan
     </div>
     
     <div class="card">
-      <ul class="feature-list" style="margin: 0;">
+      <ul class="feature-list mb-0">
         <li><strong>Business requirements → Scalable systems</strong><br>
-        <span style="color: var(--color-text-muted);">Domain-driven design with clean separation of concerns</span></li>
+        <span class="color-text-muted">Domain-driven design with clean separation of concerns</span></li>
         
         <li><strong>Compliance rules → Clean data models</strong><br>
-        <span style="color: var(--color-text-muted);">Audit-ready schemas that enforce business rules at the database level</span></li>
+        <span class="color-text-muted">Audit-ready schemas that enforce business rules at the database level</span></li>
         
         <li><strong>Legacy ERP thinking → Modern SaaS platforms</strong><br>
-        <span style="color: var(--color-text-muted);">Bridging traditional enterprise requirements with cloud-native architecture</span></li>
+        <span class="color-text-muted">Bridging traditional enterprise requirements with cloud-native architecture</span></li>
       </ul>
     </div>
     
@@ -127,10 +127,10 @@ title: About - Mani Raghavan
       </ul>
     </div>
     
-    <div style="text-align: center; margin-top: var(--spacing-3xl);">
-      <h3>Interested in working together?</h3>
+    <div class="text-center mt-4">
+      <h3 class="text-gradient">Interested in working together?</h3>
       <p class="mb-2">I'm open to SaaS product architecture, ERP consulting, and technical advisory roles.</p>
-      <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+      <div class="flex gap-md justify-center flex-wrap">
         <a href="{{ '/consulting.html' | relative_url }}" class="btn btn-primary">View Consulting Services</a>
         <a href="mailto:{{ site.author.email }}" class="btn btn-secondary">Get in Touch</a>
       </div>
