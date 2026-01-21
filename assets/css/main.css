@@ -338,10 +338,17 @@ strong {
 .footer-section h3 {
   font-size: var(--font-size-lg);
   margin-bottom: var(--spacing-lg);
-  background: var(--color-accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-text-primary);
+  /* Fallback to light text */
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .footer-section h3 {
+    background: var(--color-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 .social-links {
@@ -432,11 +439,18 @@ strong {
 .hero-title {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   margin-bottom: var(--spacing-lg);
-  background: var(--color-accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-text-primary);
+  /* Fallback color */
   animation: fadeInUp 0.8s ease-out;
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .hero-title {
+    background: var(--color-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 .hero-subtitle {
@@ -630,10 +644,17 @@ strong {
 .section-title {
   font-size: var(--font-size-4xl);
   margin-bottom: var(--spacing-md);
-  background: var(--color-accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-text-primary);
+  /* Fallback color */
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .section-title {
+    background: var(--color-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 .section-subtitle {
@@ -875,10 +896,17 @@ strong {
 }
 
 .text-gradient {
-  background: var(--color-accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-accent-primary);
+  /* Primary accent color as fallback */
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .text-gradient {
+    background: var(--color-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 .mt-0 {
