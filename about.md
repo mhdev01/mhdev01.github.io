@@ -24,17 +24,17 @@ title: About - Mani Raghavan
         </div>
         <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
           <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Open Source Foundation</h4>
-          <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React • Flutter</p>
+          <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React-JS</p>
         </div>
       </div>
       <div class="grid grid-2" style="gap: var(--spacing-md); margin-top: var(--spacing-sm);">
         <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
           <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Proprietary Tech-stack</h4>
-          <p style="color: var(--color-text-primary); font-weight: 500;">Microsoft .NET Framework<br>Oracle JDE ERP<br>Progress RDBMS Framework</p>
+          <p style="color: var(--color-text-primary); font-weight: 500;">Microsoft dotnet framework<br>Oracle JDE ER<br>Progress RDBMS Framework</p>
         </div>
         <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">In 1985 and early 90's</h4>
-          <p style="color: var(--color-text-primary); font-weight: 500;">DOS: Clipper + DB-III, DB-IV, FoxBase<br>Unix: C, COBOL / Fortran / Basic</p>
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">In late 80's and early 90's</h4>
+          <p style="color: var(--color-text-primary); font-weight: 500;">DOS: Clipper+DB-III, DB-IV, foxbase<br>Unix: C, COBOL / Fortran / Basic</p>
         </div>
       </div>
     </div>

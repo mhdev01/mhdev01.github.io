@@ -97,13 +97,16 @@ document.addEventListener('DOMContentLoaded', function () {
   magneticButtons.forEach(btn => {
     btn.addEventListener('mousemove', function (e) {
       const position = btn.getBoundingClientRect();
-      const x = e.pageX - position.left - position.width / 2;
-      const y = e.pageY - position.top - position.height / 2;
+      const x = e.clientX - position.left - position.width / 2;
+      const y = e.clientY - position.top - position.height / 2;
 
-      btn.style.transform = `translate(${x * 0.3}px, ${y * 0.5}px)`;
+      // Temporarily disable transition during tracking to prevent feedback jitter
+      btn.style.transition = 'none';
+      btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px)`;
     });
 
     btn.addEventListener('mouseout', function () {
+      btn.style.transition = '';
       btn.style.transform = 'translate(0px, 0px)';
     });
   });
