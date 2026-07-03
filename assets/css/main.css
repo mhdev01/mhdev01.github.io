@@ -440,7 +440,6 @@ strong {
   margin-bottom: var(--spacing-lg);
   color: var(--color-text-primary);
   /* Fallback color */
-  animation: fadeInUp 0.8s ease-out;
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -456,7 +455,6 @@ strong {
   font-size: var(--font-size-xl);
   color: var(--color-text-secondary);
   margin-bottom: var(--spacing-2xl);
-  animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 .hero-cta {
@@ -464,7 +462,6 @@ strong {
   gap: var(--spacing-md);
   justify-content: center;
   flex-wrap: wrap;
-  animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
 /* Buttons */
