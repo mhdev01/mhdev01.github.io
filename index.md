@@ -5,7 +5,11 @@ title: Home - Mani Raghavan
 
 <section class="hero">
   <h1 class="hero-title">Designing the Backbone of Modern Enterprise SaaS</h1>
-  <p class="hero-subtitle">30+ years of architecting scalable, audit-ready, and AI-powered systems. Transitioning enterprise reliability from Django/REST to modern **Python, FastAPI, & Next.js Microservices**.</p>
+  <p class="hero-subtitle">
+    Software Architect • SaaS Product Builder<br>
+    Turning 30+ years of enterprise software experience into AI-first products<br>
+    for the next generation of businesses
+  </p>
   <div class="hero-cta">
     <a href="{{ '/projects.html' | relative_url }}" class="btn btn-primary">Explore My Work</a>
     <a href="{{ '/consulting.html' | relative_url }}" class="btn btn-secondary">Architectural Advisory</a>
@@ -19,7 +23,7 @@ title: Home - Mani Raghavan
       <p class="section-subtitle">Bridging legacy enterprise stability with high-performance modern architectures.</p>
     </div>
     
-    <div class="card-grid">
+    <div class="card-grid grid-4">
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-sitemap"></i>
@@ -61,7 +65,7 @@ title: Home - Mani Raghavan
       <h2 class="section-title">Core Expertise</h2>
     </div>
     
-    <div class="card-grid">
+    <div class="card-grid grid-4">
       <div class="card">
         <h3><i class="fas fa-server"></i> Modern Backend</h3>
         <ul class="feature-list">

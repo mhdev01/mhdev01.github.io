@@ -92,24 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Magnetic Button Effect
-  const magneticButtons = document.querySelectorAll('.btn-primary');
-  magneticButtons.forEach(btn => {
-    btn.addEventListener('mousemove', function (e) {
-      const position = btn.getBoundingClientRect();
-      const x = e.clientX - position.left - position.width / 2;
-      const y = e.clientY - position.top - position.height / 2;
-
-      // Temporarily disable transition during tracking to prevent feedback jitter
-      btn.style.transition = 'none';
-      btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px)`;
-    });
-
-    btn.addEventListener('mouseout', function () {
-      btn.style.transition = '';
-      btn.style.transform = 'translate(0px, 0px)';
-    });
-  });
 });
 
 // Add loading animation

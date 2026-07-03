@@ -22,7 +22,7 @@ title: Architecture - Mani Raghavan
     </div>
     
     <h2 class="text-gradient mt-3">The Modern Stack</h2>
-    <div class="card-grid">
+    <div class="card-grid grid-4">
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-desktop"></i>

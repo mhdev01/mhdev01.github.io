@@ -17,23 +17,21 @@ title: About - Mani Raghavan
     <h2 class="text-gradient mt-3">Evolution of Expertise</h2>
     <div class="card compact mb-3">
       <p>True architecture is about choosing the right tool for the next decade, not just the last one. I have strategically evolved my core stack to meet the demands of modern enterprise performance:</p>
-      <div class="grid grid-2" style="gap: var(--spacing-md); margin-top: var(--spacing-sm);">
+      <div class="card-grid grid-4" style="gap: var(--spacing-md); margin-top: var(--spacing-sm); margin-bottom: 0;">
         <div style="padding: var(--spacing-md); background: rgba(139, 92, 246, 0.05); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-accent-secondary); text-transform: uppercase;">Next-Gen Architecture</h4>
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-accent-secondary); text-transform: uppercase; margin-top: 0;">Next-Gen Architecture</h4>
           <p style="color: var(--color-text-primary); font-weight: 600;">FastAPI • Microservices • Next.js • AI Agents</p>
         </div>
-        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Open Source Foundation</h4>
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase; margin-top: 0;">Open Source Foundation</h4>
           <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React-JS</p>
         </div>
-      </div>
-      <div class="grid grid-2" style="gap: var(--spacing-md); margin-top: var(--spacing-sm);">
-        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Proprietary Tech-stack</h4>
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase; margin-top: 0;">Proprietary Tech-stack</h4>
           <p style="color: var(--color-text-primary); font-weight: 500;">Microsoft dotnet framework<br>Oracle JDE ER<br>Progress RDBMS Framework</p>
         </div>
-        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">In late 80's and early 90's</h4>
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase; margin-top: 0;">In late 80's and early 90's</h4>
           <p style="color: var(--color-text-primary); font-weight: 500;">DOS: Clipper+DB-III, DB-IV, foxbase<br>Unix: C, COBOL / Fortran / Basic</p>
         </div>
       </div>

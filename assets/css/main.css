@@ -515,6 +515,10 @@ strong {
   margin: var(--spacing-2xl) 0;
 }
 
+.card-grid.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .card-grid.compact {
   gap: var(--spacing-lg);
   margin: var(--spacing-xl) 0;
@@ -708,7 +712,6 @@ strong {
 
 .feature-list li:hover {
   background: var(--color-bg-glass);
-  transform: translateX(10px);
 }
 
 .feature-list li::before {
@@ -792,6 +795,10 @@ strong {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-lg);
   }
+
+  .card-grid.grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Mobile */
@@ -871,7 +878,8 @@ strong {
   }
 
   /* Mobile Cards */
-  .card-grid {
+  .card-grid,
+  .card-grid.grid-4 {
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
   }

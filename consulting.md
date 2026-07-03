@@ -17,7 +17,7 @@ title: Consulting & Collaboration - Mani Raghavan
     </div>
     
     <h2 class="text-gradient mt-3">Who I Work With</h2>
-    <div class="card-grid">
+    <div class="card-grid grid-4">
       <div class="card">
         <div class="card-icon">
           <i class="fas fa-rocket"></i>
@@ -52,7 +52,7 @@ title: Consulting & Collaboration - Mani Raghavan
     </div>
     
     <h2 class="text-gradient mt-3">Engagement Types</h2>
-    <div class="card-grid">
+    <div class="card-grid grid-4">
       <div class="card">
         <h3><i class="fas fa-clipboard-check"></i> Architecture Reviews</h3>
         <p>Comprehensive review of your existing architecture with actionable recommendations:</p>
