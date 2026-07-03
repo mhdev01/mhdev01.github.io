@@ -516,6 +516,10 @@ strong {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.card-grid.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .card-grid.compact {
   gap: var(--spacing-lg);
   margin: var(--spacing-xl) 0;
@@ -796,6 +800,10 @@ strong {
   .card-grid.grid-4 {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .card-grid.grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Mobile */
@@ -876,7 +884,8 @@ strong {
 
   /* Mobile Cards */
   .card-grid,
-  .card-grid.grid-4 {
+  .card-grid.grid-4,
+  .card-grid.grid-3 {
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
   }

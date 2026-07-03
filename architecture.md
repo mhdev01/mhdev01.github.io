@@ -89,7 +89,7 @@ title: Architecture - Mani Raghavan
     </div>
     
     <h2 class="text-gradient mt-3">Design Principles</h2>
-    <div class="card-grid">
+    <div class="card-grid grid-3">
       <div class="card">
         <h3><i class="fas fa-sitemap"></i> Clear Domain Boundaries</h3>
         <p>Organize code around business domains, not technical layers. Each module owns its data and exposes well-defined APIs.</p>
@@ -143,7 +143,7 @@ title: Architecture - Mani Raghavan
       <p>Start with a minimal viable architecture and evolve it based on real usage patterns. Avoid premature optimization.</p>
     </div>
     
-    <div class="card-grid">
+    <div class="card-grid grid-3">
       <div class="card">
         <h3>Phase 1: Foundation</h3>
         <ul class="feature-list">
