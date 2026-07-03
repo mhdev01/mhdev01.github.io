@@ -33,8 +33,8 @@ title: About - Mani Raghavan
           <p style="color: var(--color-text-primary); font-weight: 500;">Microsoft dotnet framework<br>Oracle JDE ER<br>Progress RDBMS Framework</p>
         </div>
         <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">In 1985 and early 90's</h4>
-          <p style="color: var(--color-text-primary); font-weight: 500;">DOS: Clipper + DB-III, DB-IV, FoxBase<br>Unix: C, COBOL / Fortran / Basic</p>
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">In late 80's and early 90's</h4>
+          <p style="color: var(--color-text-primary); font-weight: 500;">DOS: Clipper+DB-III, DB-IV, foxbase<br>Unix: C, COBOL / Fortran / Basic</p>
         </div>
       </div>
     </div>
