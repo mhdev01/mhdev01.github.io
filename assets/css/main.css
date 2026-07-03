@@ -481,6 +481,10 @@ strong {
   text-align: center;
 }
 
+.btn:hover {
+  transform: none;
+}
+
 .btn-primary {
   background: var(--color-accent-gradient);
   color: white;
@@ -488,7 +492,6 @@ strong {
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
   box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
   color: white;
 }
@@ -502,8 +505,6 @@ strong {
 .btn-secondary:hover {
   background: var(--color-bg-tertiary);
   border-color: var(--color-accent-primary);
-  transform: translateY(-2px);
-  color: var(--color-text-primary);
 }
 
 /* Cards */
@@ -512,6 +513,19 @@ strong {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--spacing-xl);
   margin: var(--spacing-2xl) 0;
+}
+
+.card-grid.compact {
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.card.compact {
+  padding: var(--spacing-lg);
+}
+
+.section.section-compact {
+  padding: var(--spacing-2xl) 0;
 }
 
 .card {

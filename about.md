@@ -8,25 +8,33 @@ title: About - Mani Raghavan
   <p class="hero-subtitle">Senior Software Architect with 30+ years of enterprise IT experience</p>
 </section>
 
-<section class="section">
+<section class="section section-compact">
   <div class="container">
-    <div class="highlight-box">
+    <div class="highlight-box" style="margin: var(--spacing-lg) 0;">
       <p>I bring <strong>30+ years of hands-on experience</strong> across the IT lifecycle — from the era of monolithic enterprise systems to the modern frontier of AI-driven microservices. My career is defined by building systems that outlast technology cycles.</p>
     </div>
     
     <h2 class="text-gradient mt-3">Evolution of Expertise</h2>
-    <div class="card mb-3">
+    <div class="card compact mb-3">
       <p>True architecture is about choosing the right tool for the next decade, not just the last one. I have strategically evolved my core stack to meet the demands of modern enterprise performance:</p>
-      <div class="grid grid-2 gap-lg mt-1">
-        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
-          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Foundation</h4>
-          <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React • Flutter</p>
-          <p style="font-size: var(--font-size-sm);">Built dozens of robust, monolithic systems with deep business logic and cross-platform reach.</p>
-        </div>
+      <div class="grid grid-2" style="gap: var(--spacing-md); margin-top: var(--spacing-sm);">
         <div style="padding: var(--spacing-md); background: rgba(139, 92, 246, 0.05); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: var(--radius-md);">
           <h4 style="font-size: var(--font-size-sm); color: var(--color-accent-secondary); text-transform: uppercase;">Next-Gen Architecture</h4>
           <p style="color: var(--color-text-primary); font-weight: 600;">FastAPI • Microservices • Next.js • AI Agents</p>
-          <p style="font-size: var(--font-size-sm);">Modernizing enterprise systems for sub-millisecond latency, massive horizontal scale, and **React Query optimized UX**.</p>
+        </div>
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Open Source Foundation</h4>
+          <p style="color: var(--color-text-primary); font-weight: 500;">Django • REST API • React • Flutter</p>
+        </div>
+      </div>
+      <div class="grid grid-2" style="gap: var(--spacing-md); margin-top: var(--spacing-sm);">
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">Proprietary Tech-stack</h4>
+          <p style="color: var(--color-text-primary); font-weight: 500;">Microsoft .NET Framework<br>Oracle JDE ERP<br>Progress RDBMS Framework</p>
+        </div>
+        <div style="padding: var(--spacing-md); background: rgba(255,255,255,0.03); border-radius: var(--radius-md);">
+          <h4 style="font-size: var(--font-size-sm); color: var(--color-text-muted); text-transform: uppercase;">In 1985 and early 90's</h4>
+          <p style="color: var(--color-text-primary); font-weight: 500;">DOS: Clipper + DB-III, DB-IV, FoxBase<br>Unix: C, COBOL / Fortran / Basic</p>
         </div>
       </div>
     </div>
